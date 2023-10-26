@@ -24,7 +24,6 @@
         ::-webkit-scrollbar-track {background: transparent;}
         ::-webkit-scrollbar-thumb {background: transparent;}
         body {scrollbar-width: thin; scrollbar-color: #888 #f1f1f1;}
-
     </style>
 </head>
 <body class="container-fluid">
@@ -35,9 +34,6 @@
     </script>
     <div id="header" class="container-fluid d-flex justify-content-between" style="">
         <div class="headerLeft cairoplayfont"><h1 id="title"></h1></div>
-        <div class="headerRight">
-            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        </div>
     </div>
     <div id="content" class="row cairofont" style="">
         <div id="posts" class="col-sm">
@@ -51,9 +47,39 @@
                     <img src="assets/portrait.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
                 </div>
             </div>
+            <div id="post" class="col" style="">
+                <h1 class="mx-3 text-end">بنرات</h1>
+                <div id="images" class="d-flex" style="overflow-y: hidden; overflow-x:scroll; height: min-content; max-height:min-content;">
+                    <img src="assets/landscape.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/landscape.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/landscape.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/landscape.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/landscape.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                </div>
+            </div>
+            <div id="post" class="col" style="">
+                <h1 class="mx-3 text-end">شعارات</h1>
+                <div id="images" class="d-flex" style="overflow-y: hidden; overflow-x:scroll; height: min-content; max-height:min-content;">
+                    <img src="assets/square.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/square.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/square.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/square.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/square.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                </div>
+            </div>
+            <div id="post" class="col" style="">
+                <h1 class="mx-3 text-end">فيديوهات دعائية</h1>
+                <div id="images" class="d-flex" style="overflow-y: hidden; overflow-x:scroll; height: min-content; max-height:min-content;">
+                    <img src="assets/square.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/square.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/square.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/square.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                    <img src="assets/square.jpg" alt="" class="" style="margin-left:1vh; width:150px; height:max-content;">
+                </div>
+            </div>
         </div>
     </div>
-    </div>
+
     <div id="footer" class="cairoplayfont" style="">
         <div id="copyrights" class="position-fixed bottom-0 left-0 ">
             <span>جميع الحقوق محفوظة@</span><span id="yearnow"></span>
@@ -61,7 +87,6 @@
     </div>
 
     <script>
-
         // header
         var title = document.getElementById("title");
         title.innerText="بروفايل";
